@@ -10,18 +10,28 @@
   src: local('Helvetica Now'), url(/fonts/helveticaNow/HelveticaNowDisplay-ExtraBold.ttf) format('TrueType');
 }
 
+@font-face {
+  font-family: 'Antarctican Mono Bold';
+  src: local('Antarctican Mono Bold'), url(/fonts/antarcticanMono/AntarcticanMono-Bold.ttf) format('TrueType');
+}
+
 * {
   font-family: "Helvetica Now";
 }
 
-h1, h2, h2 > * {
+h1, h2, h2 > *, h3 {
   font-family: "Helvetica Now Bold";
+}
+
+body {
+  background-color: #000;
 }
 
 #root {
   background-color: #000;
   color: #fff;
   max-width: 1280px;
+  min-width: 400px;
   margin: 0;
   height: 100vh;
 }
@@ -32,6 +42,12 @@ section {
   background-color: #000;
   color: #fff;
   padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+p.stackName {
+  font-family: "Antarctican Mono Bold";
 }
 
 /*
