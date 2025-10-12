@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Helvetica Now';
+  src: local('Helvetica Now'), url(/fonts/helveticaNow/HelveticaNowDisplay-Regular.ttf) format('TrueType');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Bold';
+  src: local('Helvetica Now'), url(/fonts/helveticaNow/HelveticaNowDisplay-ExtraBold.ttf) format('TrueType');
+}
+
+* {
+  font-family: "Helvetica Now";
+}
+
+h1, h2, h2 > * {
+  font-family: "Helvetica Now Bold";
+}
+
+#root {
+  background-color: #000;
+  color: #fff;
+  max-width: 1280px;
+  margin: 0;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+/*
+3827F5
+E4F527
+*/
