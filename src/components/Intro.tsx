@@ -4,7 +4,7 @@ export const Intro = () => {
   const yearsOfExperience: number = new Date().getFullYear() - 2018;
 
   return (
-    <section className="items-center h-[100vh]">
+    <section className="items-center h-[90vh] md:h-[100vh]">
       <div className="container">
         <MotionDiv>
           <div className="w-[90vw] md:w-[70vw]">
