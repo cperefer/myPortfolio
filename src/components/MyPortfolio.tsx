@@ -13,7 +13,7 @@ export const MyPortfolio = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden">
+    <div className="relative min-h-screen overflow-x-hidden w-[100vw]">
       {/* Fondo animado fijo que cubre toda la pantalla */}
       <div
         className="fixed top-0 left-0 w-screen h-screen -z-10 pointer-events-none"
