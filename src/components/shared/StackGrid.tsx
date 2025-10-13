@@ -1,4 +1,4 @@
-import { TechStack } from "./TechStacks";
+import { TechStack } from "../data/TechStacks";
 
 interface Props {
   stack: string;
