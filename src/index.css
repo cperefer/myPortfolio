@@ -15,12 +15,21 @@
   src: local('Antarctican Mono Bold'), url(/fonts/antarcticanMono/AntarcticanMono-Bold.ttf) format('TrueType');
 }
 
+@font-face {
+  font-family: 'Antarctican Mono Book';
+  src: local('Antarctican Mono Book'), url(/fonts/antarcticanMono/AntarcticanMono-Book.ttf) format('TrueType');
+}
+
 * {
   font-family: "Helvetica Now";
 }
 
 h1, h2, h2 > *, h3 {
   font-family: "Helvetica Now Bold";
+}
+
+h4 {
+  font-family: 'Antarctican Mono Book';
 }
 
 body {
@@ -43,14 +52,20 @@ section {
   color: #fff;
   padding: 1rem;
   display: flex;
-  align-items: center;
 }
 
-p.stackName {
+p.stackName, .monoBold {
   font-family: "Antarctican Mono Bold";
 }
 
-/*
-3827F5
-E4F527
-*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 1250px;
+  }
+}
