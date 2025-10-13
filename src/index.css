@@ -37,7 +37,6 @@ body {
 }
 
 #root {
-  background-color: #000;
   color: #fff;
   max-width: 1280px;
   min-width: 400px;
@@ -47,7 +46,6 @@ body {
 
 section {
   width: 100vw;
-  background-color: #000;
   color: #fff;
   padding: 1rem;
   display: flex;
@@ -61,6 +59,13 @@ p.stackName, .monoBold {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent; /* ⚠️ no uses negro */
 }
 
 @media (max-width: 1250px) {
