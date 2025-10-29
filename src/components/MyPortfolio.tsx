@@ -1,10 +1,11 @@
+import { AnimatedBackground } from 'animated-backgrounds';
 import { useEffect } from "react"
+import { Analytics } from "@vercel/analytics/next"
 import { Experience } from "./Experience"
 import { Footer } from "./Footer"
 import { Intro } from "./Intro"
 import { Portfolio } from "./Portfolio"
 import { Stack } from "./Stack"
-import { AnimatedBackground } from 'animated-backgrounds';
 
 export const MyPortfolio = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ export const MyPortfolio = () => {
           backgroundColor: "transparent",
         }}
       >
+        <Analytics />
         <AnimatedBackground
           animationName="neuralNetwork"
           theme="portfolio"
