@@ -1,6 +1,6 @@
 import { AnimatedBackground } from 'animated-backgrounds';
 import { useEffect } from "react"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Experience } from "./Experience"
 import { Footer } from "./Footer"
 import { Intro } from "./Intro"
