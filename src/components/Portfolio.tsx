@@ -8,7 +8,7 @@ export const Portfolio = () => {
       <div className="container pb-[100px] md:pb-[200px]">
         <MotionDiv>
           <div className="w-[90vw] md:w-[60vw]">
-            <h3 className="text-2xl md:text-3xl md:pb-5">Portfolio</h3>
+            <h3 className="text-2xl md:text-3xl md:pb-5">Proyectos destacados</h3>
             {
               ProjectsDelivered.map((project) => (
                 <PortfolioProject key={project.name} projectDelivered={project} />
