@@ -25,4 +25,5 @@ export const database: TechStack[] = [
 export const tools: TechStack[] = [
   {name: 'Git', img: './images/git.png'},
   {name: 'Vercel', img: './images/vercel.png'},
+  {name: 'Vitest', img: './images/vitest.png'},
 ]
