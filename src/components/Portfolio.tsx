@@ -11,7 +11,7 @@ export const Portfolio = () => {
             <h3 className="text-2xl md:text-3xl md:pb-5">
               Proyectos destacados
             </h3>
-            <div className="flex row justify-between items-start">
+            <div className="flex flex-col md:flex-row justify-around md:justify-between items-center md:items-start gap-5">
               {ProjectsDelivered.map((project) => (
                 <PortfolioProject
                   key={project.name}
