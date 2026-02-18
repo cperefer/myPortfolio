@@ -5,9 +5,9 @@ import { PortfolioProject } from "./shared/PortfolioProject";
 export const Portfolio = () => {
   return (
     <section>
-      <div className="container pb-[100px] md:pb-[200px]">
+      <div className="container pb-[100px] w-4/5 md:pb-[200px]">
         <MotionDiv>
-          <div className="w-[90vw]">
+          <div className="">
             <h3 className="text-2xl md:text-3xl md:pb-5">
               Proyectos destacados
             </h3>
